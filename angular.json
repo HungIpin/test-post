@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "chaydumt"
+    }
+  },
+  "defaultProject": "chaydumt",
+  "cli": {
+    "analytics": "eb4588dc-a3dc-458a-a68c-b1c3dc6eba6f"
+  }
 }
