@@ -3,10 +3,10 @@ const path = require('path');
   
 const ngApp = express();  
   
-ngApp.use(express.static('./dist/chaydumt'));  
+ngApp.use(express.static('./chaydumt'));  
   
 ngApp.get('/*', function (request, response) {  
-    response.sendFile(path.join(__dirname, '/dist/chaydumt/index.html'));  
+    response.sendFile(path.join(__dirname, '/chaydumt/index.html'));  
 });  
   
 ngApp.listen(process.env.PORT || 8080);
